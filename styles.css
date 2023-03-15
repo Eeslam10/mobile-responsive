@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.wrapper {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: rgb(31, 32, 33);
+    padding: 2rem;
+}
+
+p, h2{
+    color: white;
+}
+
+/* NAV */
+
+nav {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+}
+
+nav > .first-p > p {
+    font-weight: bold;
+}
+
+nav > .center > p{
+    word-spacing: 15px;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+nav > .nav-button> button {
+    color: white;
+    background: black;
+    border: solid 1px white;
+    width: 80px;
+    padding: .2rem;
+    border-radius: 20px;
+    border: 0;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    padding: 1.8rem;
+
+}
+
+aside {
+    width: 50%;
+    height: 250px;
+}
+
+aside.first-aside > p {
+    font-size: 20px;
+    /* line-height: 1.5; */
+    margin-bottom: 1rem;
+   
+}
+
+aside.first-aside > h1{
+    font-size: 40px;
+    background: linear-gradient( to right, rgb(54, 98, 54), lightslategray);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 1rem;
+}
+
+aside.first-aside > button {
+    border: 0;
+    background: black;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    /* margin : auto; */
+}
+
+aside.first-aside > button:hover {
+    background: white;
+    color: black;
+}
+ 
+
+aside.second-aside
+ {
+    background-image: url(/imgs/fifa.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+
+/* ARTICLE */
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 1rem; 
+}
+
+h4  {
+    color: white;
+    font-size: 20px;
+}
+
+.collaboration {
+    width: 12rem;
+    height: 15rem;
+    border: solid 2px lightslategray;
+    border-radius: 12px;
+    display: grid;
+    padding: 1rem;
+}
+
+.collaboration > p {
+    font-size: 16px;
+
+}
+
+.security {
+    width: 12rem;
+    height: 15rem;
+    border: solid 2px lightslategray;
+    border-radius: 12px;
+    display: grid;
+    padding: 1rem;
+}
+
+.security > p {
+    font-size: 16px;
+    
+}
+
+.analytics {
+    width: 12rem;
+    height: 15rem;
+    border: solid 2px lightslategray;
+    border-radius: 10px;
+    display: grid;
+    padding: 1rem;
+}
+
+.analytics> p {
+    font-size: 16px;
+    
+}
+
+.fa-solid {
+    color: white;
+}
+
+/* COMPANY */
+
+.company {
+    width: 100%;
+    padding: 2.4rem;
+}
+
+.company > p {
+    font-size: 40px;
+    background: linear-gradient( to right, rgb(54, 98, 54), lightslategray);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+.company > .images {
+    width: 100%;
+    height: 300px;
+    background-image: url(/imgs/mailchimp-lsdA8QpWN_A-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* OUR */
+
+.our {
+    text-align: center;
+    
+}
+
+.our >p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.our > p:last-child {
+    font-size: 16px;
+    color: lightslategray;
+}
+
+/* GROUPS */
+
+.groups {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 2rem;
+} 
+
+.groups > .free {
+    width: 12rem;
+    height: 20rem;
+    border: solid 1px lightslategray;
+    border-radius: 20px;
+}
+
+.free > .free-text {
+    padding: 1rem
+}
+
+.free > .free-text p:first-child  {
+    font-size: 20px;
+}
+
+.free > .free-text p:last-child  {
+    font-size: 9px;
+}
+
+.free > button {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-top: .5rem;
+    margin-left: .9rem;
+    border: 0;
+}
+
+.free:hover {
+    background: lightgreen;
+    color: white;
+}
+
+.groups > .Premium {
+    width: 12rem;
+    height: 20rem;
+    border: solid 1px lightslategray;
+    border-radius: 20px;
+}
+
+.Premium > .premium-text {
+    padding: 1rem;
+}
+
+.Premium > .premium-text p:first-child  {
+    font-size: 20px;
+}
+
+.Premium > .premium-text p:last-child  {
+    font-size: 9px;
+}
+
+.Premium > button {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-top: .5rem;
+    margin-left: .9rem;
+    border: 0;
+}
+
+.Premium:hover {
+    background: lightgreen;
+    color: black;
+}
+
+.groups > .Ultimate {
+    width: 12rem;
+    height: 20rem;
+    border: solid 1px lightslategray;
+    border-radius: 20px;
+} 
+
+.Ultimate > .ultimate-text {
+    padding: 1rem;
+}
+
+.Ultimate > .ultimate-text p:first-child  {
+    font-size: 20px;
+}
+
+.Ultimate > .ultimate-text p:last-child  {
+    font-size: 9px;
+}
+
+.Ultimate > button {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-top: .5rem;
+    margin-left: .9rem;
+    border: 0;
+}
+
+.Ultimate:hover {
+    background: lightgreen;
+    color: white;
+}
+
+
+.check-container {
+    padding: 1rem; 
+}
+
+.check-container > p {
+    padding-bottom: .7rem;
+}
+
+.fa-check {
+    color:aqua;
+    margin-right: 2px;
+}
+
+.zero-dollar {
+    margin-left: 1rem;
+}
+
+.zero-dollar > p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.zero-dollar > p > .month {
+    font-size: 9px;
+    font-weight: 100;
+}
+
+
+ 
